@@ -73,6 +73,9 @@ lookup the public-facing port which is NAT-ed store the private port used by the
     curl http://`hostname`:$WEB_PORT
       Hello world!
 
+.. Note::
+    If you are running this example in vagrant, use the vagrant public IP with ``hostname -I``
+
 access the web app using curl. If everything worked as planned you should see the line "Hello world!" inside of your console.
 
 **Video:**
